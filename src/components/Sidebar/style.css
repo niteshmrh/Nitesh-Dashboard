@@ -1,0 +1,126 @@
+.sidebar-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo-section {
+  display: flex;
+  border-bottom: 1px solid #ddd;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 3.5rem;
+}
+
+.logo-section a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-section img {
+  width: calc(100% - 45%);
+  height: auto;
+}
+
+img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+.navbar {
+  padding: 12px 0;
+  width: 100%;
+}
+
+.navbar a {
+  font-size: 0.9rem;
+  color: #495584;
+  display: flex;
+  align-items: center;
+  padding: 0.625rem 1.5rem;
+  margin: 5px 0px;
+  width: 100%;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  color: #1376b8 !important;
+}
+
+.navbar a.active {
+  color: #1376b8 !important;
+  font-weight: 500;
+  background-color: #f9faff;
+}
+
+.navbar svg {
+  font-size: 1.5rem;
+  margin-top: -2px;
+  padding-right: 4px;
+}
+
+span svg {
+  margin-top: -4px;
+  font-size: 1.5rem;
+  padding-right: 4px;
+}
+
+.navbar .accordion {
+  width: 100%;
+  border-style: none;
+}
+
+.navbar .accordion .accordion-item {
+  border: none;
+}
+
+.accordian-header {
+  margin-bottom: 0;
+}
+
+.sidebar-section .navbar .accordion-button.collapsed {
+  padding: 0.625rem 1.5rem;
+}
+
+.sidebar-section .navbar .accordion button {
+  color: #495584;
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+.sidebar-section .navbar .accordion-body a {
+  font-size: 0.87rem;
+  margin: 0;
+  font-weight: 500;
+  padding: 10px 48px;
+  color: #495584;
+}
+
+.sidebar-section .navbar .accordion-button:not(.collapsed) {
+  padding: 0.625rem 1.5rem;
+  color: #b61e20;
+  font-weight: 500;
+  box-shadow: none;
+  background: none;
+  outline: none;
+}
+
+.sidebar-section .navbar .accordion-button:focus {
+  box-shadow: none;
+  background: none;
+  outline: none;
+}
+
+.sidebar-section .navbar .accordion-button::after {
+  height: 15px;
+  width: 15px;
+  background-size: 15px;
+  color: #b61e20;
+}
+
+.sidebar-section .navbar .accordion-body {
+  padding: 0;
+}

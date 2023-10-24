@@ -1,0 +1,18 @@
+.layout-page {
+	background-color: #f3f3f4;
+	display: flex;
+	min-height: 100vh;
+}
+
+.side-bar {
+	position: fixed;
+	width: 270px;
+	height: 100%;
+	background-color: #ffff;
+	border-right: 0.3px solid #ddd;
+}
+
+.main-body {
+	width: 100%;
+	padding-left: 270px;
+}

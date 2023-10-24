@@ -1,0 +1,197 @@
+/* *************************** Global ******************************** */
+.std-color {
+  color: #1376b8 !important;
+}
+.table {
+  font-size: 14px;
+  text-align: left;
+}
+.card-body {
+  padding: 14px 1rem !important;
+}
+
+.invest-id {
+  color: #2f3538;
+  font-size: 14px;
+  font-weight: 600;
+  opacity: 0.8;
+}
+.live-status {
+  background: transparent;
+  border-radius: 2px;
+  /* color: #198754; */
+  font-size: 12px;
+  font-weight: 500;
+  margin-left: 2px;
+  opacity: 1;
+  padding: 2px 5px;
+}
+.live-stage {
+  border-radius: 2px;
+  font-size: 12px;
+  font-weight: 500;
+  margin-left: 2px;
+  opacity: 1;
+  padding: 2px 5px;
+}
+.overdue {
+  background: transparent;
+  /* color: #bc0e14; */
+}
+
+/* ********************************** overview **************************** */
+.table1 td,
+.table2 td,
+.table3 td {
+  border-top: 0;
+  padding: 3px !important;
+  vertical-align: middle;
+}
+.table1 span,
+.table2 span,
+.table3 span {
+  display: flex;
+}
+.card .card-header .card-title {
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+#overview span {
+  margin-right: 4px;
+}
+#overview .details-box {
+  box-shadow: 0 4px 16px 0 rgba(169, 184, 200, 0.36) !important;
+  height: 284px;
+  margin-bottom: 0;
+}
+#overview .card-view {
+  background: #e7f5ff;
+  left: 4%;
+  padding: 2px 16px !important;
+  position: absolute;
+  top: -5%;
+}
+
+.table1 tbody tr td:nth-child(1) {
+  /* color: red; */
+  display: flex;
+  text-align: start;
+  font-size: 14px;
+  width: 125px;
+}
+.table2 tbody tr td:nth-child(1) {
+  /* color: red; */
+  display: flex;
+  text-align: start;
+  font-size: 14px;
+  width: 200px;
+}
+.table3 tbody tr td:nth-child(1) {
+  /* color: red; */
+  display: flex;
+  text-align: start;
+  font-size: 14px;
+  width: 200px;
+}
+.table1 tbody tr td:nth-last-child(1),
+.table2 tbody tr td:nth-last-child(1),
+.table3 tbody tr td:nth-last-child(1) {
+  /* color: red; */
+  text-align: end;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* ************************ EMI DETAILS TABS ****************************** */
+
+.tabs li {
+  color: #1378bd;
+  display: block;
+  font-size: 15px;
+  font-weight: 400;
+  padding: 14px 20px;
+  cursor: pointer;
+}
+.tabs li.active {
+  border-bottom: 2px solid #1378bd;
+}
+
+/* ************************************* Document ******************************* */
+.document .card .card-body .document-table tr td a {
+  display: inline;
+  color: #166ec9;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.document .card .card-body .document-table tr td a svg {
+  font-size: 22px;
+}
+
+/* *********************************** Credit report ******************************* */
+
+/* /* /****************************** Personal details ***************************  */
+.vertical-timeline::before {
+  background: #f3f3f4 !important;
+}
+
+.vertical-timeline .vertical-timeline-element-content p {
+  font-size: 13px;
+  margin-top: 8px;
+}
+
+.vertical-timeline .VerticalTimelineElement svg {
+  margin-left: 10px;
+}
+
+.fs-14 {
+  font-size: 14px;
+  color: #666666;
+}
+
+.card-header .btn-outline {
+  border: 1px solid #1376b8;
+  color: #1376b8;
+  font-weight: 600;
+  font-size: 13px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+
+.card-header .btn-outline:hover {
+  border: 1px solid #1376b8;
+  color: #1376b8;
+  background-color: #e7f5ff;
+  font-weight: 600;
+}
+
+.btn-outline svg {
+  margin-top: -2px;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+p {
+  text-align: left;
+}
+
+/* ---------------------------------------
+ modal
+------------------------------------------*/
+
+.modal-footer .btn-primary {
+  background-color: #1376b8;
+}
+
+.modal-footer .btn-primary:hover {
+  background-color: #0465a6;
+}
+
+.modal-footer .btn-primary:active {
+  background-color: #0465a6;
+}
+
+.text-opacity {
+  opacity: 0.7;
+}

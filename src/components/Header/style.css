@@ -1,0 +1,126 @@
+/* Header */
+
+.header-section {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  top: 0;
+  height: 3.5rem;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.02);
+  border-bottom: 1px solid #ddd;
+  background-color: #ffff;
+  width: calc(100% - 270px);
+  position: fixed;
+  z-index: 999;
+}
+
+.header-section .app-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  width: 5%;
+  height: 100%;
+}
+
+.header-section .app-menu svg {
+  font-size: 1.5rem;
+}
+
+.header-section .profile-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  cursor: pointer;
+  margin-right: 10px;
+  height: calc(100% - 5%);
+}
+
+.profile {
+  display: flex;
+  width: 35px;
+  height: 35px;
+  justify-content: center;
+  align-items: center;
+  background-color: #1376b8;
+  border-radius: 50%;
+}
+
+.profile svg {
+  color: #ffff;
+  font-weight: 900;
+  font-size: 1.4rem;
+}
+
+.profile-name {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.profile-name h6 {
+  color: #666666;
+  padding-top: 7px;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.profile-name h6 svg {
+  font-size: 0.88rem;
+  margin-top: -2px;
+}
+
+/* -------------------------------------
+	profile Drop-down
+---------------------------------------*/
+
+.profile-name .profile-dropdown {
+  display: none;
+  position: absolute;
+  margin: 90px 0px 2px 16px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.profile-name .profile-dropdown .dropdown-items {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  list-style-type: none;
+  margin: 0;
+  padding: 15px;
+}
+
+.profile-name .profile-dropdown::before {
+  content: "";
+  position: absolute;
+  top: -0.53rem;
+  right: 1rem;
+  width: 16px;
+  height: 16px;
+  transform: rotate(45deg);
+  background-color: #ffff;
+  border-left: 1px solid #cdcdcd;
+  border-top: 1px solid #cdcdcd;
+}
+
+.profile-name .profile-btn {
+  border: none;
+  background: none;
+  outline: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.profile-name .profile-btn:focus {
+  border: none;
+  background: none;
+  outline: none;
+}
+
+.profile-name .profile-btn:hover + .profile-dropdown {
+  display: block;
+}
+
+.profile-dropdown:hover {
+  display: block;
+}

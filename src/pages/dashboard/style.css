@@ -1,0 +1,55 @@
+/* Dashboard */
+.top-svg {
+  margin-right: 10px;
+  width: 70px;
+  height: 70px;
+  /* background: #0089ff; */
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.top-svg svg {
+  color: #ffffff;
+  font-size: 40px;
+}
+.card .card-top {
+  width: 30%;
+}
+.card .card-body .card-text .top-content-position {
+  align-items: center;
+}
+.card-heading {
+  color: #000000 !important;
+  font-weight: 700 !important;
+}
+h6 {
+  font-weight: normal;
+  font-size: 13px !important;
+  margin: 0;
+}
+.card .card-body .card-text > span {
+  font-weight: normal;
+  font-size: 14px !important;
+  margin: 0;
+  color: #000000;
+}
+.card .card-bottom {
+  width: 20%;
+}
+.calender {
+  border-color: #666;
+}
+#bottom .card .card-body .card-text {
+  text-align: center;
+}
+.card .card-body .card-text .dpd-value {
+  color: #15b9e8;
+}
+.card .card-body .card-text .margin-dpd {
+  margin-bottom: 10px;
+}
+.box-shadow {
+  box-shadow: 0 4px 16px 0 rgba(169, 184, 200, 0.36) !important;
+  margin-bottom: 0;
+}

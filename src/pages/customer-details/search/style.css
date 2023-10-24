@@ -1,0 +1,62 @@
+/* Seach Page */
+.btn-primary {
+	background-color: #1376b8 !important;
+	font-size: small;
+}
+
+.profile-link {
+	text-decoration: none;
+	color: #1376b8;
+	font-size: small;
+	font-weight: bold;
+}
+
+.page-name {
+	font-size: small;
+	margin-right: 4px;
+}
+
+.table {
+	font-size: small;
+}
+
+/* Pagination */
+.pagination .page-item .page-link {
+	color: #1376b8;
+}
+
+.pagination .page-item.active .page-link {
+	color: #fff;
+	background-color: #1376b8;
+}
+
+/* To remove input arrows */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+/* No user found page */
+.noDataFound {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	padding: 15px;
+}
+
+.noDataFound img {
+	height: 300px;
+	width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.size-md {
+	height: 34px;
+}
+
+.bottom-fixed {
+	position: fixed;
+	bottom: 0;
+}

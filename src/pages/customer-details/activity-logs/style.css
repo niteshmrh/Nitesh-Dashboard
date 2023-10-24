@@ -1,0 +1,49 @@
+.main-content .card .card-header .card-title {
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 0;
+  color: #666;
+}
+
+audio {
+  background-color: #fff;
+  height: 14px;
+  width: 300px;
+}
+
+.main-content .card .border-bottom {
+  border-bottom: 1px solid #eaedf1 !important;
+}
+
+.main-content .card .card-body,
+.card-footer {
+  padding: 14px 1rem !important;
+}
+.main-content .card .card-body .media {
+  align-items: flex-start;
+  display: flex;
+}
+.main-content .card .card-body .media .transcations-icon i {
+  align-items: center;
+  background-color: #e7f1f8;
+  border-radius: 50%;
+  color: #1376b8;
+  font-size: 16px;
+  margin-right: 12px;
+  padding: 10px;
+  display: flex;
+}
+
+.main-content .card .card-body .media .media-body h6 span {
+  color: black;
+  font-weight: 700;
+}
+
+.main-content .card .card-body .media .media-body h5 span {
+  color: black;
+}
+
+.main-content .card .card-body .media .media-body h5 span span {
+  color: #1376b8 !important;
+  font-weight: 400;
+}
